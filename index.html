@@ -1,0 +1,38 @@
+
+<html>
+
+<head>
+	<title>Index</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles/mystyle.css">
+	<script src="js/myscript.js"></script>
+
+</head>
+
+<body onload="loading()">
+		<div class="wrapper">
+			<div id= "cont"class="container clearfix">
+				<h1 id = "pagetitle" class ="col-sm-12 hidden-sm hidden-xs "></h1>
+				<h3 id="smalltitle" class ="col-sm-12 hidden-md hidden-lg hidden-xl">Full Stack Project</h3>
+				<div id="mainform">
+					<h2 >My Task Board</h2>
+						<form id="myform">
+							<textarea id="tinput" placeholder=" text note here" ></textarea>
+							<p class="sheads">date :</p>
+							<input type="datetime-local" id="dinput" >
+							<input type = "submit" onclick="check()" id="button" class="btn btn-success"value = "click me">
+						</form>
+					<p id="status"></p>
+				</div>
+		</div>
+
+<div id = "mainbody"></div>
+
+</div>
+</body>
+
+</html>
